@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>    
+  <header class="navbar" role="navigation">
+        <div class="container">
+        <a class="navbar-brand text-white" href="#">
+            <img src="logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Landguru
+        </a>
+        <div class="row m-auto">
+          <nav class="navbar navbar-expand-lg">
+              <div class="col">
+                  <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <ul class="nav">
+                              <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Home</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Adversite
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Support
+                                  </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                                </li>
+                              <li class="nav-item">
+                                  <a class="nav-link text-white">Contact</a>
+                                </li>
+                            </ul> 
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </nav>
+        </div>
+          <button type="button" class="btn btn-outline-light btn-lg rounded-pill">Get Started</button>
+        </div>
+    </header>
+    <div class="toast show m-auto" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body">
+          Welcome to LandGuru!
+        </div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+    </div>   
+    <section class="home">
+      <div class="container">
+      <div class="row align-items-center">
+          <div class="content col">
+              <h1 class="display-1 title fw-bold text-white">
+                  Experience your ultimate mobile
+                  application
+              </h1>
+              <p class="subtitle text-white">
+                  Get your blood tests delivered at let home collect sample from the victory of the managments that supplies best
+                  design system guidelines ever.
+              </p>
+              <div>
+                  <button type="button" class="btn btn-light btn-lg rounded-pill" data-bs-toggle="modal" data-bs-target="#exampleModal">Get Started</button>
+                  <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            ...
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <i class="bi bi-play-circle-fill text-white">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-play-circle-fill" viewBox="0 0 16 16">
+                          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+                        </svg>
+                      Watch Video
+                  </i>
+              </div>
+              <div>
+                  <img src="sponser.png" class="img-fluid">
+              </div>
+          </div>
+          <div class="mockup col">
+              <img src="mockup.png" class="img-fluid" alt="mockup">
+          </div>
+      </div>
+      </div>
+    </section>
+    <section class="about">
+        <div class="container">
+          <div class="txt mt-5">
+           <p class="undertitle text-uppercase">Quality features</p>
+           <h2 class="title mb-5">Meet exciting feature of app</h2>
+          </div>
+          <div class="about_card row ms-lg-4">
+            <div class="col">
+              <div class="card border-light">
+                <img src="icon.png" class="card-img-top img-fluid w-50 m-auto" alt="icon">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Vector Editing</h5>
+                  <p class="card-text">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light">
+                <img src="icon2.png" class="card-img-top img-fluid w-50 m-auto" alt="icon2">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Customize & Monitoring</h5>
+                  <p class="card-text">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-light">
+                <img src="icon3.png" class="card-img-top img-fluid w-50 m-auto" alt="icon3">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Quality & short-period</h5>
+                  <p class="card-text">Get your blood tests delivered at home collect a sample from the your blood tests.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="app">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="img-block col mt-5 mb-5 ms-5">
+            <img src="mobile.png" class="img-fluid w-75 ms-5 px-4">
+          </div>
+          <div class="info-block col mt-5 mb-5">
+            <p class="undertitle text-uppercase ">Core features</p>
+            <h3 class="title w-50 fw-bold">Smart Jackpots & that you may love this anytime & anywhere</h3>
+              <div class="card border-light mb-3" style="max-width: 410px;">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img src="work.png" class="img-fluid rounded-start mt-4" alt="icon4">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Smart Features</h5>
+                      <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card border-light mb-3" style="max-width: 410px;">
+                <div class="row g-0">
+                  <div class="col-md-2">
+                    <img src="diadem.png" class="img-fluid rounded-start mt-4" alt="icon4">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Secure Contents</h5>
+                      <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of
+                        the managments. your blood tests.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="txt mt-5">
+          <p class="undertitle text-uppercase">Quality features</p>
+          <h2 class="title">Meet exciting feature of app</h2>
+        </div>
+        <div class="row ms-5 mt-5 mb-5">
+          <div class="card border-light mb-3" style="max-width: 410px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="icon4.png" class="img-fluid rounded-start mt-4" alt="icon4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Features</h5>
+                  <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-light mb-3" style="max-width: 410px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="icon5.png" class="img-fluid rounded-start mt-4" alt="icon4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Features</h5>
+                  <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-light mb-3" style="max-width: 410px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="icon6.png" class="img-fluid rounded-start mt-4" alt="icon4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Features</h5>
+                  <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-light mb-3" style="max-width: 410px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="icon7.png" class="img-fluid rounded-start mt-4" alt="icon4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Features</h5>
+                  <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-light mb-3" style="max-width: 410px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="icon8.png" class="img-fluid rounded-start mt-4" alt="icon4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Features</h5>
+                  <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card border-light mb-3" style="max-width: 410px;">
+            <div class="row g-0">
+              <div class="col-md-2">
+                <img src="icon9.png" class="img-fluid rounded-start mt-4" alt="icon4">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Features</h5>
+                  <p class="card-text">Get your blood tests delivered at let home collect sample from the victory of the managments.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+      </div>
+    </section>
+    <section class="core">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="info-block col-sm-4">
+            <div class="mt-5">
+            <p class="undertitle text-uppercase">Core features</p>
+            <h2 class="title">Smart Jackpots that you may love this anytime &amp; anywhere</h2>
+          </div>
+            <div class="txt-content lh-lg">
+              <p>Get your tests delivered at let home collect sample from the victory of the managments that supplies
+                best design system guidelines ever. Get your tests delivered at let home collect sample.</p>
+            </div>
+            <button class="btn btn-outline-light btn-lg rounded-pill btn-primary">Get Started</button>
+          </div>
+          <div class="bg-block col">
+            <img src="smart.png" alt="instruments" class="img-fluid" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hiw">
+      <div class="container overflow-hidden">
+        <div class="txt text-white pt-5">
+          <p class="undertitle text-uppercase">Whats the function</p>
+          <h2 class="title">Let’s see how it works</h2>
+        </div>
+        <div class="row text-white mt-5 mb-5 m-auto gx-5">
+          <div class="col mt-5 mb-5">
+            <img src="1.png" class="mb-4 img-fluid">
+            <p class="title fw-bold">Set disbursement
+              Instructions</p>
+            <p class="text fw-light">Get your blood tests delivered at home collect a sample from the your blood tests.
+            </p>
+          </div>
+          <div class="col mt-5 mb-5">
+            <img src="2.png" class="mb-4 img-fluid">
+            <p class="title fw-bold">Assembly retrieves funds from your account</p>
+            <p class="text fw-light">Get your blood tests delivered at home collect a sample from the your blood tests.
+            </p>
+          </div>
+          <div class="col mt-5 mb-5">
+            <img src="3.png" class="mb-4 img-fluid">
+            <p class="title fw-bold">Assembly initiates disbursement</p>
+            <p class="text fw-light">Get your blood tests delivered at home collect a sample from the your blood tests.
+            </p>
+          </div>
+          <div class="col mt-5 mb-5">
+            <img src="4.png" class="mb-4 img-fluid">
+            <p class="title fw-bold">Customer receives funds payment</p>
+            <p class="text fw-light">Get your blood tests delivered at home collect a sample from the your blood tests.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="secure">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col mt-5">
+            <img src="ph.png" alt="ph" class="img-fluid">
+          </div>
+          <div class="col mt-5 ms-5">
+            <p class="undertitle text-uppercase mt-5">Core features</p>
+            <h2 class="title w-75 mt-5">Secure Payment Transaction System with #1 Ranking</h2>
+            <p class="text w-50 mt-4">Get your tests delivered at let home collect sample from the victory of the managments
+              that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.</p>
+            <button class="btn btn-outline-light btn-lg rounded-pill btn-primary mt-4">Learn More</button>
+          </div>
+       </div>
+      </div>
+    </section>
+    <section class="plans">
+      <div class="container">
+          <p class="undertitle text-uppercase txt text-white pt-5">Whats the function</p>
+          <h2 class="title mt-5 txt text-white">Let’s see how it works</h2>
+        <div class="row w-75 m-auto mt-5 row-cols-1 row-cols-md-2 gx-5">
+          <div class="one card text-white col mb-5">
+            <p class="card-title mt-5 fw-bold h4 ms-5">Free Plan</p>
+            <p class="subtitle ms-5">For Small teams or office</p>
+            <ul class="mt-5">
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Ultimate access to all course, exercises and assessments</li>
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Free acess for all kind of exercise corrections with downloads.</li>
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Total assessment corrections with free download access system</li>
+              <li class="list-group-item mb-4">
+                <img src="close.png">Unlimited download of courses on the
+                mobile app contents</li>
+              <li class="list-group-item mb-4">
+                <img src="close.png">Download and print courses and
+                exercises in PDF</li>
+            </ul>
+            <button class="btn btn-outline-light btn-lg rounded-pill mt-5 w-50 m-auto mb-5">Signup Now</button>
+          </div>
+          <div class="two card col mb-5">
+            <span class="ms-5 mt-2 text-warning fw-bold">Recommended</span>
+            <div class="row">
+              <div class="col">
+                <p class="title mt-3 fw-bold h4 ms-5">Premium</p>
+                <p class="subtitle ms-5">For startup enterprise</p>
+              </div>
+              <div class="col">
+                <p class="undertitle mt-3">Starting from</p>
+              <p class="text-success fw-bold h4">49.99/mo</p>
+              </div>
+            </div>
+            <ul class="mt-5">
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Ultimate access to all course, exercises and assessments</li>
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Free acess for all kind of exercise corrections with downloads.</li>
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Total assessment corrections with free download access system</li>
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Unlimited download of courses on the mobile app contents</li>
+              <li class="list-group-item mb-4">
+                <img src="bird.png">
+                Download and print courses and exercises in PDF</li>
+            </ul>
+            <button class="but btn btn-outline-light btn-lg rounded-pill mt-5 w-50 m-auto mb-5">Signup Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="container">
+        <p class="undertitle txt text-uppercase mt-5">Frequent Question</p>
+        <h2 class="title txt">Do you have any question</h2>
+        <div class="row m-auto mt-5 mb-5">
+          <div class="accordion m-auto mt-5 mb-5 w-50" id="accordionExample">
+            <div class="accordion-item border-light">
+              <p class="accordion-header" id="headingOne">
+                <div class="fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 <img src="icco.svg"> How to contact with riders emergency?
+                </div>
+              </p>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-light">
+              <p class="accordion-header" id="headingTwo">
+                <div class="fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <img src="icco.svg"> App installation failed, how to update system information?
+                </div>
+              </p>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-light">
+              <p class="accordion-header" id="headingThree">
+                <div class="fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <img src="icco.svg">  Website reponse taking time, how to improve?
+                </div>
+              </p>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-light">
+              <p class="accordion-header" id="headingFour">
+                <div class="fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                  <img src="icco.svg">  New update fixed all bug and issues
+                </div>
+              </p>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+              <div class="footer-inner border-top border-2 mt-5 w-100 m-auto">
+                <div class="row mt-5 mb-5 gy-3">
+                  <div class="col mt-5">
+                    <p class="col-title ms-5 fw-bold">About Us</p>
+                      <ul class="footer-menu ms-3">
+                        <li class="menu-item mt-5 mb-3"><a class="nav-link" href="/">Support Center</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Customer Support</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">About Us</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Copyright</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Popular Campaign</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="col mt-5">
+                    <p class="col-title ms-5 fw-bold">Our Information</p>
+                    <nav class="footer-nav">
+                      <ul class="footer-menu ms-3">
+                        <li class="menu-item mt-5 mb-3"><a class="nav-link" href="/">Return Policy </a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Privacy Policy</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Terms &amp; Conditions</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Site Map</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Store Hours</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="col mt-5">
+                    <p class="col-title ms-5 fw-bold">My Account</p>
+                    <nav class="footer-nav">
+                      <ul class="footer-menu ms-3">
+                        <li class="menu-item mt-5 mb-3"><a class="nav-link" href="/">Press inquiries</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Social media</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">directories</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Images &amp; B-roll</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Permissions</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                  <div class="col mt-5">
+                    <p class="col-title ms-5 fw-bold">Policy</p>
+                    <nav class="footer-nav">
+                      <ul class="footer-menu ms-3">
+                        <li class="menu-item mt-5 mb-3"><a class="nav-link" href="/">Application security</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Software principles</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Unwanted software policy</a></li>
+                        <li class="menu-item mb-3"><a class="nav-link" href="/">Responsible supply chain</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>
